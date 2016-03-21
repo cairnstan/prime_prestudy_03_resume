@@ -1,0 +1,82 @@
+body, header, section, h1, p, img, h2, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin:0;
+}
+body {
+	background-color: #CAE3E0;
+	background-image: url("http://www.transparenttextures.com/patterns/arches.png");
+	border: 7px solid #0B473F;
+	font-family: Georgia;
+	margin: 25px 250px 25px 250px;
+	padding: 25px 50px 25px 50px;
+}
+button {
+    background-color: #713912; 
+    border: 1px 1px 1px 1px;
+    color: #C08358;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+    
+ }
+section {
+	display: none;
+}
+header {
+	border-bottom: 2px solid midnightblue;
+	border-top: 2px solid midnightblue;
+	margin-bottom: 20px;
+	background-color: #93a9ab;
+	color: #fafafa;
+	text-shadow: 1px 1px #0B473F,
+		-1px -1px #0B473F,
+		-1px 1px #0B473F,
+		1px -1px #0B473F;
+	text-align: center;
+
+}
+img {
+	height: 175px;
+	width: 175px;
+	float: right;
+	display: block;
+	padding: 10px;
+	box-shadow: 2px 2px 5px #000000;
+
+}
+img:hover {
+	opacity: .75;
+}
+main {
+	text-align: left;
+}
+p {
+	font-weight: bold;
+	margin-top: 15px; 
+}
+
+h2 {
+	text-align: left;
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+	color: #2a3d75;
+	font-weight: bold;
+}
+a:hover {
+	color: #005B4E;
+}
+ul {
+	margin-left: 50px;
+	margin-top: 8px;
+}
+section {
+	padding: 10px;
+}
+
+
